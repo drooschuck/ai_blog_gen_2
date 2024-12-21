@@ -21,16 +21,16 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'https://render-deploy-tutorial-reactjs-code.onrender.com'
-]
+#CORS_ALLOWED_ORIGINS = [
+ #   'https://render-deploy-tutorial-reactjs-code.onrender.com'
+#]
 
 STORAGES = {
     "default":{
-        "BACKEND" : "django.core.files.storage.FileSystemStorage",
+        "ai_blog_app" : "django.core.files.storage.FileSystemStorage",
     },
     "staticfiles": {
-        "BACKEND" : "whitenoise.storage.CompressedStaticFilesStorage",
+        "ai_blog_app" : "whitenoise.storage.CompressedStaticFilesStorage",
     },
 
 }
@@ -63,7 +63,7 @@ LOGGING = {
 
 
 
-ADMINS = [("CBI Analytics", "YOUREMAIL@EMAIL.com")]
+ADMINS = [("Drooschuck", "YOUREMAIL@EMAIL.com")]
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
