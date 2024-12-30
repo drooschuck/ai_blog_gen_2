@@ -183,6 +183,7 @@ python-socketio==5.11.4
 pytube==15.0.0
 pytz==2024.2
 
+PyQt5==5.15.10
 
 pywinpty==2.0.14
 PyYAML==6.0.2
